@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.11.0-38-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2021-10-23T11:08:18.032900",
+    "startedAt": "2021-10-23T11:08:08.317929",
+    "docker": null,
+    "gpu": "GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/indika/.local/share/jupyter/runtime/kernel-718bb478-a12c-419d-835a-3654daa12a09.json"
+    ],
+    "state": "running",
+    "program": "Untitled.ipynb",
+    "root": "/media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL",
+    "host": "programmer-rd-ai",
+    "username": "indika",
+    "executable": "/media/indika/Sync/anaconda3/bin/python"
+}

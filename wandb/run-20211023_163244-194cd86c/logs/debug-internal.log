@@ -1,0 +1,278 @@
+2021-10-23 16:32:51,142 INFO    MainThread:565252 [internal.py:wandb_internal():88] W&B internal server running at pid: 565252, started at: 2021-10-23 16:32:51.142113
+2021-10-23 16:32:51,182 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: check_version
+2021-10-23 16:32:51,182 INFO    WriterThread:565252 [datastore.py:open_for_write():77] open: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/run-194cd86c.wandb
+2021-10-23 16:32:51,184 DEBUG   SenderThread:565252 [sender.py:send():185] send: header
+2021-10-23 16:32:51,184 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: check_version
+2021-10-23 16:32:51,568 DEBUG   SenderThread:565252 [sender.py:send():185] send: run
+2021-10-23 16:32:52,174 INFO    SenderThread:565252 [dir_watcher.py:__init__():169] watching files in: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files
+2021-10-23 16:32:52,174 INFO    SenderThread:565252 [sender.py:_start_run_threads():768] run started: 194cd86c with start time 1634986970
+2021-10-23 16:32:52,174 DEBUG   SenderThread:565252 [sender.py:send():185] send: summary
+2021-10-23 16:32:52,175 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: run_start
+2021-10-23 16:32:52,175 INFO    SenderThread:565252 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-23 16:32:53,185 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/wandb-summary.json
+2021-10-23 16:32:53,395 DEBUG   HandlerThread:565252 [meta.py:__init__():40] meta init
+2021-10-23 16:32:53,395 DEBUG   HandlerThread:565252 [meta.py:__init__():54] meta init done
+2021-10-23 16:32:53,395 DEBUG   HandlerThread:565252 [meta.py:probe():212] probe
+2021-10-23 16:32:53,401 DEBUG   HandlerThread:565252 [git.py:repo():33] git repository is invalid
+2021-10-23 16:32:53,401 DEBUG   HandlerThread:565252 [meta.py:_save_code():90] save code
+2021-10-23 16:32:53,401 WARNING HandlerThread:565252 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-10-23 16:32:53,401 DEBUG   HandlerThread:565252 [meta.py:_save_pip():58] save pip
+2021-10-23 16:32:53,402 DEBUG   HandlerThread:565252 [meta.py:_save_pip():72] save pip done
+2021-10-23 16:32:53,402 DEBUG   HandlerThread:565252 [meta.py:_save_conda():79] save conda
+2021-10-23 16:32:54,184 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/conda-environment.yaml
+2021-10-23 16:32:54,185 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/requirements.txt
+2021-10-23 16:32:57,189 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/output.log
+2021-10-23 16:32:58,374 DEBUG   HandlerThread:565252 [meta.py:_save_conda():87] save conda done
+2021-10-23 16:32:58,374 DEBUG   HandlerThread:565252 [meta.py:probe():250] probe done
+2021-10-23 16:32:58,377 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-23 16:32:58,377 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:32:58,377 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: stop_status
+2021-10-23 16:32:58,377 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:32:58,381 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:32:58,834 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:32:59,186 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/conda-environment.yaml
+2021-10-23 16:32:59,186 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/output.log
+2021-10-23 16:32:59,186 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/wandb-metadata.json
+2021-10-23 16:33:02,343 INFO    Thread-12 :565252 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/2c/ce0b63948a6df9ba08a11b5200676f
+2021-10-23 16:33:04,069 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzNTY=', 'digest': 'a1e276acf030b69808d05071a2e10a26', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': None}, 'version': 'latest'}
+2021-10-23 16:33:04,070 DEBUG   SenderThread:565252 [sender.py:send():185] send: files
+2021-10-23 16:33:04,070 INFO    SenderThread:565252 [sender.py:_save_file():901] saving file wandb-metadata.json with policy now
+2021-10-23 16:33:04,070 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:05,240 INFO    Thread-13 :565252 [upload_job.py:push():137] Uploaded file /tmp/tmpluy9yadmwandb/2joxvw3t-wandb-metadata.json
+2021-10-23 16:33:13,835 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-23 16:33:13,835 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: stop_status
+2021-10-23 16:33:17,994 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:17,994 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:18,613 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:18,613 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:18,617 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:18,617 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:18,721 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:18,721 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:19,110 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:19,112 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:19,112 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:19,145 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:19,145 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:19,575 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:19,577 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:19,577 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:20,686 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:20,687 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:21,280 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:21,283 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:21,283 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:22,004 INFO    Thread-18 :565252 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/1c/04bdb2f8b1c57779352352a8405ab2
+2021-10-23 16:33:22,182 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:22,182 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:22,920 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:22,923 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:22,923 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:24,084 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzNTY=', 'versionIndex': 0}}, 'version': 'latest'}
+2021-10-23 16:33:24,085 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:24,085 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:25,079 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:25,079 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:25,079 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:25,982 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:25,982 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:25,983 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:26,789 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:26,789 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:27,075 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:27,075 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:27,075 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:27,400 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:27,403 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:27,403 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:28,210 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:28,211 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:28,211 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:29,245 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:29,245 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:29,390 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-23 16:33:29,391 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: stop_status
+2021-10-23 16:33:32,490 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:32,491 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:32,951 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:32,951 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:32,954 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:32,954 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:33,021 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:33,022 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:33,474 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:33,476 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:33,476 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:33,546 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:33,546 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:33,959 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:33,959 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:33,960 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:33,970 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:33,972 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:33,972 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:34,077 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:34,078 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:34,591 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:34,593 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: pause
+2021-10-23 16:33:34,593 INFO    HandlerThread:565252 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-10-23 16:33:34,701 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: resume
+2021-10-23 16:33:34,701 INFO    HandlerThread:565252 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-10-23 16:33:34,909 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:34,909 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:34,909 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:35,186 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: log_artifact
+2021-10-23 16:33:35,197 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/code/_session_history.ipynb
+2021-10-23 16:33:35,197 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_created():217] file/dir created: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/code
+2021-10-23 16:33:35,220 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:35,989 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'digest': '52713fc2d3bd75b2cf1f7ce331252c0f', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-194cd86c', 'alias': 'latest'}, {'artifactCollectionName': 'source-194cd86c', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'v1'}
+2021-10-23 16:33:35,989 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:35,990 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:36,198 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/output.log
+2021-10-23 16:33:39,043 INFO    Thread-28 :565252 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/31/7b5c64d85e0f91769ca8d0ccbd66dc
+2021-10-23 16:33:40,321 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:41,224 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzk0Mjk=', 'digest': '7147af098cb55d580ec096bac1a94fb6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzkzOTM=', 'versionIndex': 1}}, 'version': 'latest'}
+2021-10-23 16:33:41,224 DEBUG   SenderThread:565252 [sender.py:send():185] send: config
+2021-10-23 16:33:41,224 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:41,225 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: log_artifact
+2021-10-23 16:33:43,483 INFO    Thread-30 :565252 [upload_job.py:push():92] Skipped uploading /home/indika/.cache/wandb/artifacts/obj/md5/31/7b5c64d85e0f91769ca8d0ccbd66dc
+2021-10-23 16:33:44,849 INFO    Thread-31 :565252 [upload_job.py:push():95] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/b5/8ba75001045b1853fa9aae5d74fb62
+2021-10-23 16:33:45,422 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:46,712 INFO    SenderThread:565252 [sender.py:send_request_log_artifact():929] logged artifact source-194cd86c - {'id': 'QXJ0aWZhY3Q6MzMwNzk0Mzg=', 'digest': 'ada8451b447ae9d498ebabde676da6d4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NTI3NzU=', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzMwNzk0Mjk=', 'versionIndex': 2}}, 'version': 'latest'}
+2021-10-23 16:33:46,712 DEBUG   SenderThread:565252 [sender.py:send():185] send: telemetry
+2021-10-23 16:33:46,712 DEBUG   SenderThread:565252 [sender.py:send():185] send: exit
+2021-10-23 16:33:46,713 INFO    SenderThread:565252 [sender.py:send_exit():317] handling exit code: 0
+2021-10-23 16:33:46,713 INFO    SenderThread:565252 [sender.py:send_exit():319] handling runtime: 12
+2021-10-23 16:33:46,716 INFO    SenderThread:565252 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-23 16:33:46,717 INFO    SenderThread:565252 [sender.py:send_exit():329] send defer
+2021-10-23 16:33:46,717 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:46,717 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:46,717 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:46,717 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:46,718 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 0
+2021-10-23 16:33:46,718 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:46,718 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 0
+2021-10-23 16:33:46,718 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 1
+2021-10-23 16:33:46,718 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:46,718 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 1
+2021-10-23 16:33:46,814 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:46,814 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 1
+2021-10-23 16:33:46,814 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 2
+2021-10-23 16:33:46,814 DEBUG   SenderThread:565252 [sender.py:send():185] send: stats
+2021-10-23 16:33:46,815 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:46,815 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 2
+2021-10-23 16:33:46,815 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:46,815 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 2
+2021-10-23 16:33:46,815 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 3
+2021-10-23 16:33:46,815 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:46,815 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 3
+2021-10-23 16:33:46,815 DEBUG   SenderThread:565252 [sender.py:send():185] send: summary
+2021-10-23 16:33:46,815 INFO    SenderThread:565252 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-23 16:33:46,816 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:46,816 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 3
+2021-10-23 16:33:46,816 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 4
+2021-10-23 16:33:46,816 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:46,816 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 4
+2021-10-23 16:33:46,816 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:46,816 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 4
+2021-10-23 16:33:46,823 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:47,202 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/wandb-summary.json
+2021-10-23 16:33:47,470 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 5
+2021-10-23 16:33:47,470 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:47,471 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:47,471 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 5
+2021-10-23 16:33:47,471 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:47,471 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 5
+2021-10-23 16:33:47,471 INFO    SenderThread:565252 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-23 16:33:47,572 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,202 INFO    Thread-8  :565252 [dir_watcher.py:_on_file_modified():230] file/dir modified: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/config.yaml
+2021-10-23 16:33:48,203 INFO    SenderThread:565252 [dir_watcher.py:finish():313] scan: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files
+2021-10-23 16:33:48,203 INFO    SenderThread:565252 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/wandb-metadata.json wandb-metadata.json
+2021-10-23 16:33:48,203 INFO    SenderThread:565252 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/conda-environment.yaml conda-environment.yaml
+2021-10-23 16:33:48,203 INFO    SenderThread:565252 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/output.log output.log
+2021-10-23 16:33:48,204 INFO    SenderThread:565252 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/config.yaml config.yaml
+2021-10-23 16:33:48,207 INFO    SenderThread:565252 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/wandb-summary.json wandb-summary.json
+2021-10-23 16:33:48,210 INFO    SenderThread:565252 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/requirements.txt requirements.txt
+2021-10-23 16:33:48,224 INFO    SenderThread:565252 [dir_watcher.py:finish():327] scan save: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-10-23 16:33:48,225 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 6
+2021-10-23 16:33:48,225 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:48,230 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:48,230 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 6
+2021-10-23 16:33:48,231 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:48,231 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 6
+2021-10-23 16:33:48,231 INFO    SenderThread:565252 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-23 16:33:48,331 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,332 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:48,433 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,434 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:48,535 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,535 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:48,637 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,637 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:48,738 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,739 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:48,840 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,840 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:48,941 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:48,942 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,044 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,044 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,146 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,147 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,248 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,248 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,319 INFO    Thread-36 :565252 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/requirements.txt
+2021-10-23 16:33:49,351 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,351 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,401 INFO    Thread-33 :565252 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/output.log
+2021-10-23 16:33:49,402 INFO    Thread-35 :565252 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/wandb-summary.json
+2021-10-23 16:33:49,439 INFO    Thread-34 :565252 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/config.yaml
+2021-10-23 16:33:49,452 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,453 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,524 INFO    Thread-32 :565252 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/conda-environment.yaml
+2021-10-23 16:33:49,554 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,554 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,656 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,656 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,757 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,758 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,859 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,859 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:49,961 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:49,961 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:50,039 INFO    Thread-37 :565252 [upload_job.py:push():137] Uploaded file /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/files/code/_session_history.ipynb
+2021-10-23 16:33:50,062 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:50,063 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:50,164 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:50,165 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:50,240 INFO    Thread-7  :565252 [sender.py:transition_state():342] send defer: 7
+2021-10-23 16:33:50,240 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:50,240 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 7
+2021-10-23 16:33:50,241 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:50,241 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 7
+2021-10-23 16:33:50,266 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:50,614 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 8
+2021-10-23 16:33:50,615 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:50,615 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:50,615 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 8
+2021-10-23 16:33:50,616 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:50,616 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 8
+2021-10-23 16:33:50,616 INFO    SenderThread:565252 [sender.py:transition_state():342] send defer: 9
+2021-10-23 16:33:50,616 DEBUG   SenderThread:565252 [sender.py:send():185] send: final
+2021-10-23 16:33:50,616 DEBUG   SenderThread:565252 [sender.py:send():185] send: footer
+2021-10-23 16:33:50,616 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: defer
+2021-10-23 16:33:50,616 INFO    HandlerThread:565252 [handler.py:handle_request_defer():147] handle defer: 9
+2021-10-23 16:33:50,616 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: defer
+2021-10-23 16:33:50,617 INFO    SenderThread:565252 [sender.py:send_request_defer():338] handle sender defer: 9
+2021-10-23 16:33:50,716 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-23 16:33:50,716 DEBUG   SenderThread:565252 [sender.py:send_request():199] send_request: poll_exit
+2021-10-23 16:33:50,717 INFO    SenderThread:565252 [file_pusher.py:join():182] waiting for file pusher
+2021-10-23 16:33:51,253 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: get_summary
+2021-10-23 16:33:51,253 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: sampled_history
+2021-10-23 16:33:51,254 DEBUG   HandlerThread:565252 [handler.py:handle_request():130] handle_request: shutdown
+2021-10-23 16:33:51,254 INFO    HandlerThread:565252 [handler.py:finish():731] shutting down handler
+2021-10-23 16:33:51,617 INFO    WriterThread:565252 [datastore.py:close():281] close: /media/indika/Sync/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Classification-V3-TL/wandb/run-20211023_163244-194cd86c/run-194cd86c.wandb
+2021-10-23 16:33:52,251 INFO    SenderThread:565252 [sender.py:finish():1029] shutting down sender
+2021-10-23 16:33:52,251 INFO    SenderThread:565252 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-23 16:33:52,251 INFO    SenderThread:565252 [file_pusher.py:join():182] waiting for file pusher
+2021-10-23 16:33:52,252 INFO    MainThread:565252 [internal.py:handle_exit():78] Internal process exited

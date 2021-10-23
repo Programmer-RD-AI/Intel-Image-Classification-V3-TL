@@ -1,0 +1,5 @@
+
+
+  0%|          | 0/100 [00:07<?, ?it/s]
+/media/indika/Sync/anaconda3/lib/python3.8/site-packages/torchvision/models/googlenet.py:77: FutureWarning: The default weight initialization of GoogleNet will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of GoogleNet will be changed in future releases of '
